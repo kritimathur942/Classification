@@ -36,6 +36,10 @@ X_test = sc.transform(X_test)
 
 """## Decision Tree Classification Training on Training set
 
+from sklearn.tree import DecisionTreeClassifier
+classifier = DecisionTreeClassifier()
+classifier.fit(X_train, y_train )
+
 ## Predicting
 """
 
